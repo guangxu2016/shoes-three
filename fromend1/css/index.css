@@ -1,0 +1,197 @@
+/* 初始化 */
+body {
+    background-color: #fff;
+}
+body,html,h1,h2,h3,h4,p,ul,li,a,img {
+    margin: 0;
+    padding: 0;
+}
+li {
+list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* 头部 */
+header {
+    height: 45px;
+    width: 100%;
+    background-color: #006699;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+header h4 {
+    line-height: 45px;
+    width: 100%;
+    color: #fff;
+    font-weight: normal;
+    font-size:17px;
+    display: inline-block;
+}
+/* 搜索 */
+header a {
+    position: absolute;
+    right: 0;
+    top: 13px;
+    /* display: block; */
+    color: #ffff;
+    padding-right:13px;
+}
+
+header .fa-search:before {
+    content: "\f002";
+    font-size: 18px;
+}
+.cz_container {
+    padding-bottom:30px;
+}
+/* 轮播图 */
+.mui-slider {
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+/* 分类 */
+.fenlei {
+    width: 100%;
+    margin-top: 10px;
+    padding:0 10px;
+    overflow: hidden;
+}
+.fenlei a {
+    width: 33.3333%;
+    /* display: block; */
+    float: left;
+}
+.fenlei a img {
+    width: 100%;
+    display: block;
+}
+
+/* 鞋厨必备 */
+.shoe {
+   
+    padding:0 10px;
+ margin-top: 15px;
+ border-top:1px solid #ccc;
+ overflow: hidden;
+}
+
+.shoe a:nth-child(2n+1) {
+    width: 67.1%;
+    float: left;
+}
+.shoe a:nth-child(2n+1) img {
+    width: 50%;
+    float: left;
+}
+.shoe a:nth-child(2) {
+    width: 32.9%;
+    float: right;
+}
+.shoe a:nth-child(2) img {
+    width: 100%;
+}
+
+/* 品牌专区 */
+.pinpai {
+    padding:0 10px;
+    overflow: hidden;
+}
+.pinpai>img {
+    width: 100%;
+    display: block;
+}
+.pinpai .mingpai li {
+    float: left;
+    width: 25%;
+}
+.pinpai .mingpai li a {
+    display: block;
+    width: 100%;
+}
+.pinpai .mingpai li a img {
+    display: block;
+    width: 100%;
+}
+/* 运动生活专区 */
+.sport {
+    padding:0 10px;
+    
+}
+.sport>img {
+    width: 100%;
+    display: block;
+}
+.sport ul {
+margin-top: 10px;
+overflow: hidden;
+}
+.sport ul li {
+    width: 47%;
+    float: left;
+    text-align: center;
+    padding:0 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px #ccc;
+    margin-right: 9px;
+    overflow: hidden;
+}
+.sport ul li a {
+    float: left;
+    width: 100%;
+    
+}
+.sport ul li img {
+    width: 100%;
+}
+
+.sport ul li .name {
+    padding:0 10px;
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.sport ul li .price {
+    font-size:12px;
+    color: #f30;
+    margin-right: 10px;
+}
+
+.sport ul li .oldPrice {
+    font-size:12px;
+    color: #ccc;
+}
+.sport ul li button {
+    margin: 10px 0;
+    background-color: #006699;
+    color: #fff;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #006699;
+    width: 100%;
+    text-align: center;
+}
+footer a {
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    padding:10px 0;
+    
+}
+footer a:first-child {
+    color:darkorange;
+} 
+footer a span {
+    font-size: 12px;
+}
