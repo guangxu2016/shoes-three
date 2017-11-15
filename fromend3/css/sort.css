@@ -1,0 +1,82 @@
+body {
+    background-color: #f7f7f7;
+}
+.lt-header .mui-title {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .lt-header .mui-title input {
+    height: 30px;
+    padding: 0 10px;
+    background-color: #fff;
+    color: #000;
+  }
+  /* 中间内容 */
+  .lt-sort {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      display: flex;
+  }
+  .lt-sort .sort-left {
+      width: 75px;
+      height: 100%;
+  }
+  .lt-sort .sort-left ul {
+      width: 100%;
+      height: 100%;
+  }
+
+  .lt-sort .sort-left ul li {
+      height: 46px;
+      width: 75px;
+      line-height: 46px;
+      text-align: center;
+      border-right:1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      background-color: #fff;
+  }
+
+  .lt-sort .sort-left ul li a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    color: #666;
+    font-size:11px;
+}
+
+.lt-sort .sort-left a.active {
+    color:red;
+}
+
+  .lt-sort .sort-right {
+    flex:1;
+    width: 100%;
+    padding:10px;
+}
+.lt-sort .sort-right ul {
+    width: 100%;
+    background-color: #fff;
+    font-size:0;
+}
+.lt-sort .sort-right ul li {
+    display: inline-block;
+    width: 33.3333%;
+}
+.lt-sort .sort-right ul li a {
+    display: block;
+    width: 100%;
+}
+.lt-sort .sort-right ul li a img {
+    height: auto;
+    width: 100%;
+    vertical-align: middle;
+}
+.lt-sort .sort-right span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+}
